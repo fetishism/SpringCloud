@@ -41,7 +41,7 @@ spring:
 jetcache:
   statIntervalMinutes: 15
   areaInCacheName: false
-  hidePackages: com.springboot.cloud
+  hidePackages: com.ascrud.cloud
   local:
     # 默认2小时本地缓存
     default:
@@ -110,7 +110,7 @@ management:
 
 logging:
   level:
-    com.springboot.cloud: debug
+    com.ascrud.cloud: debug
     java.sql.PreparedStatement: debug
   path: logs/
   file:

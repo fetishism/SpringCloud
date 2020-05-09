@@ -54,7 +54,7 @@ feign:
 jetcache:
   statIntervalMinutes: 1
   areaInCacheName: false
-  hidePackages: com.springboot.cloud
+  hidePackages: com.ascrud.cloud
   local:
     # 默认永久本地缓存
     default:
@@ -88,7 +88,7 @@ management:
 
 logging:
   level:
-    com.springboot.cloud: debug
+    com.ascrud.cloud: debug
     com.jalja.org.spring: debug
   path: logs/
   file:

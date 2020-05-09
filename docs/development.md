@@ -25,7 +25,7 @@
 │   ├── organization       --组织管理应用，包括用户、角色、资源、菜单、组织架构的管理
 │   └── pom.xml
 ├── monitor              --监控、日志及服务管理子项目
-│   ├── admin              --springboot admin管理
+│   ├── admin              --ascrud admin管理
 │   ├── hystrix-dashboard  --hystrix监控
 │   ├── turbine            --turbine监控聚集 
 │   └── pom.xml
@@ -88,12 +88,12 @@
 │   │   │   ├── interceptor      --拦截器相关类
 │   │   │   └── task             --定时任务
 │   │   └── resources          --配置文件目录 
-│   │       ├── application.yml  --springboot的应用配置文件
-│   │       └── bootstrap.yml    --springboot的配置文件
+│   │       ├── application.yml  --ascrud的应用配置文件
+│   │       └── bootstrap.yml    --ascrud的配置文件
 │   └── test                   --测试目录
 │       ├── java                 --java测试案例目录
 │       └── resources          --配置文件目录 
-│          └── application.yml   --springboot test的配置文件
+│          └── application.yml   --ascrud test的配置文件
 └── target                     --编译目标目录
 ```
 ### 开发规范

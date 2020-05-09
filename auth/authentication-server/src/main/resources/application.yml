@@ -41,7 +41,7 @@ feign:
 jetcache:
   statIntervalMinutes: 15
   areaInCacheName: false
-  hidePackages: com.springboot.cloud
+  hidePackages: com.ascrud.cloud
   local:
     # 短時本地緩存，主要用于要求时效较高的配置
     default:
@@ -52,7 +52,7 @@ jetcache:
 
 logging:
   level:
-    com.springboot.cloud: debug
+    com.ascrud.cloud: debug
     org.springframework.web: debug
     org.springframework.security: debug
   path: logs/

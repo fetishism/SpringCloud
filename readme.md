@@ -6,7 +6,7 @@
 
 ### 先决条件
 
-首先本机先要安装以下环境，建议先学习了解springboot和springcloud基础知识。
+首先本机先要安装以下环境，建议先学习了解ascrud和springcloud基础知识。
 
 - [git](https://git-scm.com/)
 - [java8](http://www.oracle.com/technetwork/java/javase/downloads/index.html) 

@@ -19,7 +19,7 @@ mysql默认账号密码：root/root123
 
 默认账号密码：nacos/nacos
 
-## 启动监控类服务，如springboot-admin、sentinel-dashboard
+## 启动监控类服务，如ascrud-admin、sentinel-dashboard
 
 `docker-compose -f docker-compose.yml -f docker-compose.monitor.yml up`
 

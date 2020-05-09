@@ -44,7 +44,7 @@ logging:
       sql:
         PreparedStatement: debug
     com:
-      springboot: debug
+      ascrud: debug
   path: logs/
   file:
     max-size: 1GB

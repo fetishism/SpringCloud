@@ -21,7 +21,7 @@ pom.xml
 
 ```
 <dependency>
-    <groupId>com.springboot.cloud</groupId>
+    <groupId>com.ascrud.cloud</groupId>
     <artifactId>web</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 </dependency>
